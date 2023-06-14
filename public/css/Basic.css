@@ -1,0 +1,35 @@
+@font-face 
+{
+	font-family: "Font";
+	src: "../Fonts/montserrat/Montserrat-Bold.ttf" format("truetype");
+}
+.Font
+{ 
+	font-family: "Font", Verdana, Tahoma;
+}
+a
+{
+	text-decoration: none;
+}
+.rectangle
+{
+	position: relative;
+	background: RGB(54, 54, 54);
+	border-radius: 20px;
+	vertical-align: middle;
+	display: inline-block;
+}
+button
+{
+	position: absolute;
+	background: none; 
+	border: none;
+	padding: 0px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}

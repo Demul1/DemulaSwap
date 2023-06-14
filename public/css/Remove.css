@@ -1,0 +1,100 @@
+.PercentReceiveText
+{
+	position: relative;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin:0px;
+}
+.YouWillReceiveText
+{
+	position: relative;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin:0px;
+}
+.PercentDiv
+{
+	width:580px;
+	height: 90px;
+	left: 10px;
+	float: left;
+}
+.ReceiveDiv
+{
+	width:580px;
+	height: 170px;
+	left: 10px;
+	float: left;
+}
+.PercentInputDiv
+{
+	height: 60px;
+	width: 300px;
+	left: 5px;
+	top: 6px;
+}
+.PercentInput
+{
+	position: absolute;
+	height: fit-content;
+	width: 100%;
+	padding: 0px;
+	background: transparent; 
+	border: none; 
+	outline: none;
+	font-size: 41px;
+	color: white;
+	left: 15px;
+}
+.ReceiveInputDiv
+{
+	height: 70px;
+	width: 300px;
+	left: 255px;
+	top: 25px;
+}
+.InputDiv
+{
+	position: absolute;
+	width: 280px;
+	height: 50px;
+	left: 10px;
+	top: 4.25px;
+}
+.RemoveConfirmDiv
+{
+	width:580px;
+	height: 70px;
+	left: 10px;
+	top: 20px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../assets/Images/PurpleGradient.jpg); 
+	background-size: cover;
+}
+.removeconfirmrectangle
+{
+	position: relative;
+	border-radius: 20px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.RemoveConfirmSwapButton
+{
+	width: 100%; 
+	height: 100%; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+}
+.RemoveConfirmSwapText
+{
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+	margin:0px;
+}

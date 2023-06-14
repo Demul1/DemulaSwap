@@ -1,0 +1,246 @@
+.SwapUIDiv
+{
+	width:600px;
+	height:420px;
+	left: 660px;
+	top: 200px;
+}
+.Swaprectangle
+{
+	position: absolute;
+	background: RGB(54, 54, 54);
+	border-radius: 20px;
+	vertical-align: middle;
+	display: inline-block;
+}
+/*swap top div*/
+.UpperSwapText
+{
+	position: relative;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	margin:0px;
+}
+.SettingsSymbol
+{
+	position: absolute;
+	width: 30px; 
+	top: 15px; 
+	left: 555px;
+}
+/*swap from and to div*/
+.FromToDiv
+{
+	width:580px;
+	height: 120px;
+	left: 10px;
+	float: left;
+}
+.fromtorectangle
+{
+	position: relative;
+	background: RGB(24, 24, 24);
+	border-radius: 20px;
+	vertical-align: middle;
+	display: inline-block;
+}
+/*Token 1 and 2 Pic*/
+.TokenPic
+{
+	left: 0px;
+	top: 0px;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	position: absolute;
+}
+.TokenSymbol
+{
+	left: 95px;
+	top: 17px;
+	position: absolute;
+}
+.TokenSymbolText
+{
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin:0px;
+	float: left;
+}
+.FromInputDiv
+{
+	height: 70px;
+	width: 300px;
+	left: 255px;
+	top: 25px;
+}
+.Token1InputDiv
+{
+	position: absolute;
+	width: 190px;
+	height: 50px;
+	left: 100px;
+	top: 4.25px;
+}
+.Token2InputDiv
+{
+	position: absolute;
+	width: 280px;
+	height: 50px;
+	left: 10px;
+	top: 4.25px;
+}
+.TokenInput
+{
+	height: 61.5px;
+	width: 100%;
+	padding: 0px;
+	background: transparent; 
+	border: none; 
+	outline: none;
+	font-size: 25px;
+	color: white;
+}
+.BalanceDollarDiv
+{
+	position: absolute;
+	top: 99.5px;
+	width: 580px;
+	height: fit-content; 
+	display: flex; 
+	align-items: center; 
+}
+.BalanceText
+{
+	right: 30px;
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 12.5px;
+	font-weight: bold;
+	margin:0px;
+}
+.DollarText
+{
+	left: 260px;
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 12.5px;
+	font-weight: bold;
+	margin:0px;
+}
+/*max*/
+.MaxDiv
+{
+	width:80px;
+	height: 50px;
+	left: 10px;
+	top: 10px;
+}
+.maxrectangle
+{
+	position: relative;
+	border-radius: 20px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.MaxText
+{
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	margin:0px;
+}
+/*arrowseperator*/
+.ArrowDiv
+{
+	width: 50px;
+	height: 50px;
+	left: 35px;
+	top: 170px;
+	z-index:1;
+}
+.ArrowDivButton
+{
+	width: 100%; 
+	height: 100%; 
+	focus:outline-none; 
+	outline: none;
+}
+.arrowrectangle
+{
+	position: absolute;
+	background: RGB(54, 54, 54);
+	border-radius: 20px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.InnerArrowDiv
+{
+	width: 40px;
+	height: 40px;
+	left: 5px;
+	top: 5px;
+	z-index:2;
+}
+.innerarrowrectangle
+{
+	position: absolute;
+	background: RGB(24, 24, 24);
+	border-radius: 20px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.ArrowImage
+{
+	width: 30px;
+	left: 5px;
+	top: 5px;
+}
+/*confirm*/
+.ConfirmDiv
+{
+	width:580px;
+	height: 70px;
+	left: 10px;
+	top: 40px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../assets/Images/PurpleGradient.jpg); 
+	background-size: cover;
+}
+.confirmrectangle
+{
+	position: relative;
+	border-radius: 20px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.ConfirmSwapButton
+{
+	width: 100%; 
+	height: 100%; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+}
+.ConfirmSwapText
+{
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+	margin:0px;
+}
+#TokenPic
+{
+
+}

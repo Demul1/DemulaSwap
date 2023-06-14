@@ -1,0 +1,115 @@
+/*top div*/
+.logo
+{
+	width: 50px;
+	position: relative;
+	transition: transform .3s ease-in-out;
+}
+.logo:hover
+{
+	transform: rotate(-6deg);
+}
+.UpperText
+{
+	position: relative;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	margin:0px;
+}
+/*tabs*/
+.TabsDiv
+{
+	width:360px;
+	height:56.14px;
+	left: 40.625%;
+	top: 1.238390092%;
+}
+#SwapText
+{
+}
+#AboutText
+{
+}
+#PoolsText
+{
+}
+.TabsDivElement
+{
+
+}
+.CurrentScreenDiv
+{
+	position: absolute;		
+	height: 56.14px;
+}
+#CurrentScreenDiv
+{
+
+}
+/*network*/
+.NetworkDiv
+{
+	width:142.77px;
+	height:56.14px;
+	right: 429.41px;
+	top: 1.238390092%;
+}
+/*balanceinfo*/
+.BalanceInfoDiv
+{
+	width:402.42px;
+	height:56.14px;
+	right: 12px;
+	top: 1.238390092%;
+}
+#BalanceInfoBalanceText
+{
+}
+/*addressinfo*/
+.AddressInfoDiv
+{
+	width:224.7px;
+	height:56.13px;
+}
+.addressinforectangle
+{
+	position: absolute;
+	background: RGB(24, 24, 24);
+	border-radius: 20px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+/*wrongnetwork*/
+.WrongNetworkDiv
+{
+	width:261.7px;
+	height:56.14px;
+	right: 12px;
+	top: 1.238390092%;
+}
+.wrongnetworkrectangle
+{
+	position: relative;
+	background: RGB(255, 0, 0);
+	border-radius: 20px;
+	vertical-align: middle;
+	display: inline-block;
+}
+/*connect*/
+.ConnectDiv
+{
+	width:242.11px;
+	height:56.14px;
+	right: 12px;
+	top: 1.238390092%;
+}
+.connectrectangle
+{
+	position: relative;
+	background: RGB(65,105,225);
+	border-radius: 20px;
+	vertical-align: middle;
+	display: inline-block;
+}
