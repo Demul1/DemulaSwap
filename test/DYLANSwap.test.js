@@ -20,7 +20,7 @@ contract('DYLANSwap', ([deployer, investor]) => {
 		_DYLANSwap = await DYLANSwap.new(await _Demula.address);
 		_DYLANSwapLP = await DYLANSwapLP.new(await _DYLANSwap.address);
 	})
-	/*
+	
 	describe('Demula Deployment', async () => {
 		it('Demula owner correct', async() => {
 			const DemulaOwner = await _Demula.Owner();
@@ -67,7 +67,7 @@ contract('DYLANSwap', ([deployer, investor]) => {
 			assert.equal(DYLANSwapLP, DYLANSwapLPAddress);
 		})
 	})
-	*/
+	
 	describe('Liquidity Values', async () => {
 		before(async () => {
 			_Demula = await Demula.new();
