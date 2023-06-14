@@ -5,23 +5,6 @@ import "./Demula.sol";
 import "./DYLANSwapLP.sol";
 import "./Ownable.sol";
 
-/*
-FUNCTIONS NEEEDED:
-
-price of eth; gets balance of eth in this sol contract and calls getbalanceof() on demula.sol to get balance of dem in this sol contract
-price of dem; gets balance of eth in this sol contract and calls getbalanceof() on demula.sol to get balance of dem in this sol contract
-get dem liquity; gets balance of dem in this sol contract with getbalanceof() on demula.sol
-get eth liquitity; gets balance of eth in this sol contract
-remove liquidity; calls function on lp token to burn user lp token; use send() from this contract to send eth back to user and call transfer() on demula.sol to send dem back to user
-swap dem for eth; call function on demula.sol to send user's demula to this sol contract and then use send() to send eth back to user
-
-
-
-the following functions will be on blockchaindataholder.js because i cant call function to remove eth from user with solidity, i need web3 to do that
-add liquidity; web3 in bdh.js will call function to send user's eth to this sol cotract, and then call function on demula.sol to send user's demula to this sol contract, then mint lp tokens which is equal to amount of tokens added and send to user 
-swap eth for dem; web3 in bdh.js will call function to send user's eth to this sol contract, make sure it went through because it returns bool, and then call transfer() on demula.sol to send dem back to user
-*/
-
 contract DYLANSwapInterface {
     function SetLPAddress(address dylanSwaplp) public returns (bool success);
     function DEMLiquidity() public constant returns (uint);
