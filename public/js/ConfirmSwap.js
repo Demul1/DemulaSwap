@@ -1,10 +1,3 @@
-/*insufficient liquitiy -
-enter an amount -
-connect wallet - done
-insufficient (token1) balance
-wrong network (make button red) - done
-*/ 
-
 import {WalletConnected, NetworkSupported, Approved, Approve, ConfirmSwap, ConnectWallet} from "./Default.js";
 import {FromLiquidity, ToLiquidity, FromBalance} from "./TokenInfo.js";
 
